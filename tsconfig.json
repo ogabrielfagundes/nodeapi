@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016", /* Define a versão do JavaScript para a qual o código será compilado */
+    "module": "commonjs", /* Define o sistema de módulos como CommonJS, o padrão do Node.js */
+    "outDir": "./dist", /* Pasta onde os arquivos .js compilados serão salvos */
+    "rootDir": "./src", /* Pasta onde estão seus arquivos .ts de origem */
+    "strict": true, /* Habilita todas as checagens estritas de tipo */
+    "esModuleInterop": true, /* ESSENCIAL: Permite a interoperabilidade com módulos CommonJS */
+    "skipLibCheck": true, /* Pula a verificação de tipos de arquivos de declaração (.d.ts) */
+    "forceConsistentCasingInFileNames": true, /* Garante que os nomes dos arquivos sejam consistentes */
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+  },
+  "include": [
+    "src/**/*"
+  ] // Diz ao compilador para incluir todos os arquivos dentro da pasta 'src'
+}
